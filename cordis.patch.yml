@@ -1,0 +1,12 @@
+# dsh-plugin-scihub bundle patch
+# Registers the SciHub Papers plugin into the DSH composition.
+#
+# Usage (overlay):
+#   dsh web --patch /path/to/dsh-plugin-scihub/cordis.patch.yml
+#
+# Or install as a profile bundle (recommended):
+#   dsh plugin --profile web add ./dsh-plugin-scihub
+# (the dsh CLI appends the package to dsh.profile.bundles automatically)
+- insert:
+    - id: sevastopol36-scihub
+      name: 'dsh-plugin-scihub'

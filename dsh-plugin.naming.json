@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "policy": "dsh-plugin-naming/v1",
+  "plugin": {
+    "namespace": "sevastopol36",
+    "name": "scihub",
+    "coordinate": "sevastopol36/scihub",
+    "packageName": "dsh-plugin-scihub"
+  },
+  "names": {
+    "pluginNames": [
+      "sevastopol36-scihub"
+    ],
+    "loaderIds": [
+      "sevastopol36-scihub"
+    ],
+    "services": [],
+    "tools": [
+      "sevastopol36_scihub_search",
+      "sevastopol36_scihub_resolve",
+      "sevastopol36_scihub_fetch",
+      "sevastopol36_scihub_probe",
+      "sevastopol36_scihub_sources"
+    ],
+    "commands": [],
+    "skills": [],
+    "skillProviders": [],
+    "events": [],
+    "settingsNamespaces": [],
+    "routes": []
+  }
+}

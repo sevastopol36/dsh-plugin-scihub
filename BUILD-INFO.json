@@ -1,0 +1,28 @@
+{
+  "package": "dsh-plugin-scihub",
+  "version": "0.2.0",
+  "repository": "git+https://github.com/sevastopol36/dsh-plugin-scihub.git",
+  "peerRange": {
+    "@deepseek-ai/dsh-tools": ">=0.1.0-rc.6"
+  },
+  "verifiedRuntimes": [
+    "0.1.5-rc.1",
+    "0.2.0-rc.2"
+  ],
+  "note": "lib/ is copied byte for byte from the tested sources; the hashes below let a reader confirm that.",
+  "files": {
+    ".gitignore": "7ef99eceaf0f528de5eb762823a910fe556df5014a9dc3083ae993124495eba9",
+    "LICENSE": "30fbb2ccd8fd3148c3e9e8b54c114c3664a78aeb5f952de5d37a6059b6d37064",
+    "README.md": "76b8567ce7eb2a60d20dea765e267b06c16c68a79f0e5ebb4245ce4313fea0a2",
+    "cordis.patch.yml": "3522faabfc575bc367b1bf48bee6b94e94f65c5374bc267aa73b8ae9740d0794",
+    "dsh-plugin.naming.json": "0c8eef23302213c1ee7b2f4de3f0435d9b5bcddc5a6f1547accd00085de60030",
+    "lib/index.mjs": "a6ad4f4baf522d350e15721ecd0892fcf5db626d7f838d57c10de2fa97e9f1b7",
+    "lib/resolve.mjs": "e0348f5696acae7a79f38d4204cb184dc47fe454a72594679ccf67c14ea4a66e",
+    "lib/search.mjs": "70edefea4463de2dbf7316f2bbe9a63325ed93f101f07fcd8fbc10954c54789a",
+    "lib/semver-range.mjs": "accf84e87722f6941c63915fbc5e93aef1d55d20e54d6ef5d8d1d2b9147a3a64",
+    "lib/sources.mjs": "41097905c16971a1a19b52b415c5493d19fb21ddd502732c7c25248460063875",
+    "lib/util.mjs": "7af9430266d3761462688770266293f4bc64a0494af0eeb7d5cb0ef3014173e4",
+    "package.json": "0ee4e1d1d7340e7f5114f0ce761db1a371468a5ccfac3d4337e0cc183f101061",
+    "verify.mjs": "0c278e045458b8f0edd1edf6a3b25a4ae51a36b32005f2ceca9301eba0d8627b"
+  }
+}
